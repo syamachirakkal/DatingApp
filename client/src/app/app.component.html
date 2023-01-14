@@ -1,0 +1,7 @@
+<h1>{{title}}</h1>
+<ul>
+    <li *ngFor="let user of users"><!-- here users are from component .ts class, user is a type of users like in c# string user here user is of users-->
+        {{user.id}} -{{user.userName}} <!--even in .net the variables declare in Pascal casing in angularr data pass by json file and its camel casing thats userName -->
+
+    </li>
+</ul>
